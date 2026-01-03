@@ -1,13 +1,10 @@
 
-
-```md
 # 🏆 Sports Streaming Application (Frontend Demo)
 
 A modern **sports streaming web application** built with **React** that demonstrates **authentication, protected video playback, favorites management, infinite scrolling, and section-based browsing** — **entirely without a backend server**.
 
 This is a **frontend-only demo project**, designed to showcase clean UI/UX, realistic authentication flow, state management, and YouTube-inspired engagement patterns for sports OTT platforms.
 
----
 
 ## 🚀 Features Overview
 
@@ -35,6 +32,7 @@ This is a **frontend-only demo project**, designed to showcase clean UI/UX, real
 - **Tabs**: All • Live • Leagues • Favorites
 - **Sections** by sport: Popular, Live, Cricket, Football, Basketball, Badminton, Tennis, Chess
 - Horizontal carousels with **"Show More"** → expands to full infinite scroll section
+- Select options for the match type eg:IPL or WORL CUP
 - **Infinite vertical scrolling** (no pagination)
 - Search and filter functionality
 - Responsive grid layout
@@ -139,17 +137,24 @@ cd sports-streaming-demo
 ```bash
 npm install
 ```
-
-### 3. Run the app
+### 3. Install Routings and UI utilities
+```bash
+npm install
+```
+### 4. Install Heroicons
+```bash
+npm install
+```
+### 5. Run the app
 ```bash
 npm run dev
 ```
 
 Open `http://localhost:5173` (or your Vite port)
 
----
+
 ### 1. See in live 
-playcode: 
+playcode: https://playcode.io/sports-application--019b1c88-4470-7797-a797-aaf5d3035612
 ---
 
 ## 📡 Mock API Endpoints (Frontend Only)
